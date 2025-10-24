@@ -67,6 +67,20 @@
    - 访问 `https://bing.liushen.fun/api/daily` 或者 `https://bing.liushen.fun/daily.webp` 获取今日壁纸。
    - 可在网页中直接使用，如：`<img src="https://bing.liushen.fun/api/daily" alt="今日壁纸" />`。
 
+## 随机头像API
+
+**/api/random**
+
+- /api/random → 随机图片（默认 不重定向）
+- /api/random?redirect=true → 随机图片（使用重定向）
+
+**/api/daily**
+
+- /api/daily → 今日图像（默认 WebP，不重定向）
+- n/api/daily?format=jpeg → 压缩 JPEG
+- /api/daily?format=original → 原始 JPEG
+- /api/daily?redirect=true → 今日图像（使用重定向）
+
 更多参数欢迎访问地址：[https://bing.liushen.fun/api](https://bing.liushen.fun/api) 进行查询。
 
 ## 📜 License
